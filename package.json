@@ -1,0 +1,30 @@
+{
+  "name": "subtitlepop-mcp",
+  "version": "0.1.0",
+  "description": "Local MCP tools for SRT/WebVTT inspection, conversion, time shifts and transcript extraction. An open-source SubtitlePop companion.",
+  "type": "module",
+  "license": "MIT",
+  "author": "j-river",
+  "engines": { "node": ">=22" },
+  "bin": { "subtitlepop-mcp": "src/cli.js" },
+  "exports": { ".": "./src/server.js" },
+  "files": ["src/", "examples/", "docs/", "server.json", "README.md", "LICENSE", "CHANGELOG.md"],
+  "repository": { "type": "git", "url": "git+https://github.com/j-river/subtitlepop-mcp.git" },
+  "homepage": "https://subtitlepop.com/",
+  "bugs": { "url": "https://github.com/j-river/subtitlepop-mcp/issues" },
+  "mcpName": "io.github.j-river/subtitlepop",
+  "publishConfig": { "access": "public", "registry": "https://registry.npmjs.org/" },
+  "keywords": ["mcp", "mcp-server", "subtitlepop", "subtitles", "srt", "webvtt", "captions"],
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check src/server.js && node --check src/cli.js && npm test",
+    "smoke": "node scripts/smoke.mjs",
+    "audit:public": "node scripts/audit-public.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "subtitle-timing-kit": "0.1.0",
+    "zod": "4.6.7"
+  }
+}

@@ -1,0 +1,11 @@
+1
+00:00:00,500 --> 00:00:03,500
+The first caption stays on screen.
+
+2
+00:00:02,800 --> 00:00:04,900
+This one begins too early.
+
+3
+00:00:05,000 --> 00:00:05,600
+This sentence is difficult to read in six tenths of a second.
