@@ -5,3 +5,5 @@ node_modules/
 .env.*
 .npmrc
 coverage/
+.mcpregistry*
+.mcp-publisher*

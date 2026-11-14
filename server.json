@@ -1,7 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.j-river/subtitlepop",
-  "description": "Local SRT/WebVTT checking, conversion, time shifts and transcript extraction from SubtitlePop.",
+  "title": "SubtitlePop MCP — SRT & WebVTT Tools",
+  "description": "SubtitlePop MCP: check subtitle timing, convert SRT/WebVTT, shift captions and extract transcripts.",
+  "websiteUrl": "https://subtitlepop.com/",
   "repository": { "url": "https://github.com/j-river/subtitlepop-mcp", "source": "github" },
   "version": "0.1.0",
   "packages": [{ "registryType": "npm", "identifier": "subtitlepop-mcp", "version": "0.1.0", "transport": { "type": "stdio" } }]

@@ -1,4 +1,4 @@
-# SubtitlePop MCP
+# SubtitlePop MCP — SRT & WebVTT Subtitle Tools
 
 **Check subtitle timing, convert SRT/WebVTT, shift timestamps and extract transcripts from your MCP client.**
 
@@ -80,6 +80,8 @@ See [format support](https://github.com/j-river/subtitle-timing-kit/blob/main/do
 This server is for files you already have. The separate [SubtitlePop subtitle generator](https://subtitlepop.com/subtitle-generator/) turns speech into editable captions; the website supports caption styling and video workflows. Try the [subtitle checker](https://subtitlepop.com/tools/subtitle-checker/) or [SRT-to-VTT tool](https://subtitlepop.com/tools/srt-to-vtt/) when you prefer a browser interface. Commercial workflows have their own pricing and privacy terms and are not invoked by this MCP.
 
 The server wraps the independently published [subtitle-timing-kit](https://github.com/j-river/subtitle-timing-kit), not the private commercial application. A no-install [Timing Lab](https://huggingface.co/spaces/j-river/subtitle-timing-lab) demonstrates that companion library separately.
+
+For worked examples and the choice between local tools and the website, see [subtitle checking, SRT-to-WebVTT conversion, time shifting and transcript workflows](docs/subtitle-workflows.md).
 
 ## Develop and verify
 
