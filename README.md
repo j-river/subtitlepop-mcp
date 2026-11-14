@@ -94,7 +94,7 @@ npm pack --dry-run
 
 Tests use the official MCP client to spawn the actual stdio entry point, negotiate the protocol, list all four tools and exercise conversions, nested overlaps, clipping, invalid/oversized input and instruction-shaped caption text. The server writes only MCP messages to stdout in protocol mode. `--help` and `--version` are separate human-readable CLI modes.
 
-Registry metadata is in `server.json`; its presence does not mean a Registry listing has been published. See [release steps](docs/releasing.md).
+Published in the [official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.j-river%2Fsubtitlepop) as `io.github.j-river/subtitlepop`, version `0.1.0`. The public listing links directly to [SubtitlePop](https://subtitlepop.com/) and the installable npm package. Registry metadata is in `server.json`; see [release steps](docs/releasing.md) for future versions.
 
 ## License
 
